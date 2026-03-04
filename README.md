@@ -38,58 +38,36 @@ Tables:
 
 **customers**
 id (VARCHAR)
-
 name (VARCHAR)
-
 mobile (VARCHAR)
-
 gender (VARCHAR)
-
 address (TEXT)
 
 **new_connection**
 connection_id (INT)
-
 customer_id (VARCHAR)
-
 connection_type (VARCHAR)
-
 load_required (INT)
-
 address (TEXT)
-
 application_date (DATE)
 
 **bills**
 bill_id (VARCHAR)
-
 customer_id (VARCHAR)
-
 conn_id (INT)
-
 units (INT)
-
 amount (FLOAT)
-
 status (VARCHAR)
 
 **receipt**
 receipt_id (INT AUTO_INCREMENT)
-
 bills_id (VARCHAR)
-
 customers_id (VARCHAR)
-
 connections_id (INT)
-
 cust_name (VARCHAR)
-
 conn_type (VARCHAR)
-
 units (VARCHAR)
-
 charge_pu (VARCHAR)
-
 amount (VARCHAR)
 
 
